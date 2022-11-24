@@ -15,6 +15,7 @@ name: Build and Deploy to GKE
 on:
   push:
     branches: [ "main" ]
+    
 
 env:
   GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
